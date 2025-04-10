@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>UNICLUB - BOOK CLUB</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navbar-logo">
+			<img src="../images/ALA-TOO_logo.png" class="logo-image">
+			<img src="../images/IMG_6953.PNG" class="logo-image">
+			<span>UNICLUB</span>
+		</div>
+
+		<div class="burger" id="burger">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<div class="nav-links" id="navLinks">
+			<li><button onclick="location.href='pages/index.html'">HOME</button></li>
+			<li><button onclick="location.href='pages/blog.html'">BLOG</button></li>
+			<li><button onclick="location.href='pages/about.html'">ABOUT</button></li>
+			<li><button onclick="location.href='pages/contact.html'">CONTACT</button></li>
+		</div>
+	</nav>
+
+	<div class="hero hero-bg">
+		<div class="hero-content">
+			<h1>BOOK CLUB</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="section">
+			<h2>BOOK CLUB</h2>
+			<p>
+                BOOK CLUB - это сообщество для всех, кто увлечен чтением. Наша главная цель – создать пространство, где любители книг могут встречаться, обсуждать прочитанное и вдохновлять друг друга. Мы стремимся популяризировать культуру чтения среди студентов.  
+                
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Что мы делаем?
+            </h2>
+			<p>Книжные обсуждения – делимся впечатлениями, анализируем сюжеты и героев. </p>
+			<p> Презентации книг – знакомимся с новыми произведениями. </p>
+			<p>Встречи с авторами – обсуждаем книги с их создателями, задаем вопросы и узнаем больше о процессе написания.</p>
+			<p>Встречи с гостями – беседы с интересными личностями. </p>
+			<p>Книготерапия – обсуждаем книги с психологом, которые помогают разобраться в сложных ситуациях, мотивируют и дают ответы на важные вопросы.  </p>
+		</div>
+
+		<div class="section">
+			<h2>Набор</h2>
+			<ul class="requirements-list">
+				Наши двери открыты для всех! Если ты любишь книги и хочешь найти единомышленников, присоединяйся к нам! Впереди – увлекательные дискуссии и новые знакомства.  
+Будь с нами – читай, обсуждай, открывай новое!
+
+			</ul>
+		</div>
+
+		
+		<div class="section">
+			<h2>Гугл опросник</h2>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSe5UrsCdWWCzRDi6MItDqYDKz-0N3G-7-KkTRBTLpgUiy9w1w/viewform?usp=sharing" class="btn" target="_blank">
+				Вступить в клуб
+			</a>
+		</div>
+
+		<div class="section">
+			<h2>Галерея</h2>
+			<div class="gallery-grid">
+				<img src="../images/dance/33.png" alt="gallery" class="gallery-item">
+				<img src="../images/dance/31.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/32.jpg" alt="gallery" class="gallery-item">
+				
+
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Контакты</h2>
+			<p>Телефон: +996 707 150 679</p>
+			<p>Почта: sanirabiga67@gmail.com</p>
+			<p>Instagram: <a href="https://www.instagram.com/vida_dance_alatoo/">@vida_dance_alatoo</a></p>
+		</div>
+	</div>
+
+	<script>
+		// Burger toggle
+		const burger = document.getElementById('burger');
+		const navLinks = document.getElementById('navLinks');
+
+		burger.addEventListener('click', () => {
+			navLinks.classList.toggle('active');
+		});
+	</script>
+</body>
+
+</html>

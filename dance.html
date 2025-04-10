@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>UNICLUB - DANCE CLUB</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navbar-logo">
+			<img src="../images/ALA-TOO_logo.png" class="logo-image">
+			<img src="../images/IMG_6953.PNG" class="logo-image">
+			<span>UNICLUB</span>
+		</div>
+
+		<div class="burger" id="burger">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<div class="nav-links" id="navLinks">
+			<li><button onclick="location.href='pages/index.html'">HOME</button></li>
+			<li><button onclick="location.href='pages/blog.html'">BLOG</button></li>
+			<li><button onclick="location.href='pages/about.html'">ABOUT</button></li>
+			<li><button onclick="location.href='pages/contact.html'">CONTACT</button></li>
+		</div>
+	</nav>
+
+	<div class="hero hero-bg">
+		<div class="hero-content">
+			<h1>DANCE CLUB</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="section">
+			<h2>DANCE CLUB</h2>
+			<p>VIDA Dance — это студенческое танцевальное комьюнити, специализирующееся на современной хореографии,
+				K-pop и хип-хопе.
+				Мы — команда энергичных и амбициозных танцоров, которые регулярно выступают на университетских
+				мероприятиях. В VIDA нет
+				случайных людей — здесь каждый дышит танцем и сценой. Мы даём возможность расти, пробовать новые стили и
+				сиять вместе с
+				нами.
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Руководство</h2>
+			<p>Президент и хореограф: Умида Тулендиева </p>
+			<p> Вице-президент, SMM и внешняя политика: Миржанова Санирабига</p>
+			<p>HR-менеджер и финансист: Маиза Дуйшекеева</p>
+			<p>Старший хореограф: Бермет Мурадылова</p>
+			<p>Хореограф: Анжелика Ниязбекова</p>
+		</div>
+
+		<div class="section">
+			<h2>Требования</h2>
+			<ul class="requirements-list">
+				<li>Обязательный танцевальный опыт (мы не обучаем с нуля)</li>
+				<li>Владение основами современной хореографии или K-pop/Hip-Hop направлений</li>
+				<li>Музыкальность, выразительность и уверенность на сцене</li>
+				<li>ответственность</li>
+				<li>Готовность активно участвовать в жизни команды и проектах клуба</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2>Набор</h2>
+			<p>Основной набор проводится один раз в год — осенью.</p>
+			<p>В исключительных случаях — второй набор в зависимости
+				от спроса.</p>
+		</div>
+
+		<div class="section">
+			<h2>Количество студентов</h2>
+			<p>В среднем подаются 60–100 человек</p>
+			<p>Отбираем 10–15 человек ежегодно</p>
+		</div>
+
+		<div class="section">
+			<h2>Кастинг</h2>
+			<ul class="requirements-list">
+				<li>Заполнение анкеты (Google Форма)</li>
+				<li>Загрузка танцевального видео (до 1 минуты)</li>
+				<li>Оффлайн встреча с участниками, прошедшими отбор</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2>Гугл опросник</h2>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdk7dwyTomLsqwCb5YI2WvuWttcaxYR23JtJEixog9V6Pr7Sw/viewform?usp=header" class="btn" target="_blank">
+				Вступить в клуб
+			</a>
+		</div>
+
+		<div class="section">
+			<h2>Галерея</h2>
+			<div class="gallery-grid">
+				<img src="../images/dance/2.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/3.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/4.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/5.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/6.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/7.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/8.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/9.jpg" alt="gallery" class="gallery-item">
+
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Контакты</h2>
+			<p>Телефон: +996 707 150 679</p>
+			<p>Почта: sanirabiga67@gmail.com</p>
+			<p>Instagram: <a href="https://www.instagram.com/vida_dance_alatoo/">@vida_dance_alatoo</a></p>
+		</div>
+	</div>
+
+	<script>
+		// Burger toggle
+		const burger = document.getElementById('burger');
+		const navLinks = document.getElementById('navLinks');
+
+		burger.addEventListener('click', () => {
+			navLinks.classList.toggle('active');
+		});
+	</script>
+</body>
+
+</html>

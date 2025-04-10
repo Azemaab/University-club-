@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>UNICLUB - MUSIC CLUB</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navbar-logo">
+			<img src="../images/ALA-TOO_logo.png" class="logo-image">
+			<img src="../images/IMG_6953.PNG" class="logo-image">
+			<span>UNICLUB</span>
+		</div>
+
+		<div class="burger" id="burger">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<div class="nav-links" id="navLinks">
+			<li><button onclick="location.href='pages/index.html'">HOME</button></li>
+			<li><button onclick="location.href='pages/blog.html'">BLOG</button></li>
+			<li><button onclick="location.href='pages/about.html'">ABOUT</button></li>
+			<li><button onclick="location.href='pages/contact.html'">CONTACT</button></li>
+		</div>
+	</nav>
+
+	<div class="hero hero-bg">
+		<div class="hero-content">
+			<h1>MUSIC CLUB</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="section">
+			<h2>MUSIC CLUB</h2>
+			<p>Music club - комьюнити талантливых музыкантов МУА. Участники имеют возможность обучиться игре на
+				инструментах, показать
+				свои таланты на различных мероприятиях внутри, и вне университета. Мы стремимся объединить любителей
+				музыки всех уровней
+				и направлений, предоставляя возможности для обучения, выступлений и взаимодействия в дружелюбной и
+				поддерживающей среде.
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Руководство</h2>
+			<p>Президент: Балбаева Айдай
+				<br>
+				Вице: Бекибаева Айгерим, Ибраимов Руслан
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Требования</h2>
+			<ul class="requirements-list">
+				<li>музыкальное образование или опыт от года</li>
+				<li>свободное время после пар(после 5-6 вечера)</li>
+				<li>отзывчивость</li>
+				<li>ответственность</li>
+				<li>навыки смм(необязательно, но было бы плюсом)</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2>Набор</h2>
+			<p>Можно оставить мой номер телефона, где ребята должны скинуть видео до 2х минут с песней/произведением.
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Количество студентов</h2>
+			<p>В среднем подаются 100-350 человек</p>
+			<p>Поступают 15 (количество может меняться)</p>
+		</div>
+
+		<div class="section">
+			<h2>Гугл опросник</h2>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbqDRIs61f_fX6H-mJD-EScOZPDNIB3oppIL2eVXoLfAuU8A/viewform?usp=header" class="btn" target="_blank">
+				Вступить в клуб
+			</a>
+		</div>
+
+		<div class="section">
+			<h2>Галерея</h2>
+			<div class="gallery-grid">
+				<img src="../images/dance/25.png" alt="gallery" class="gallery-item">
+				<img src="../images/dance/26.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/27.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/28.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/29.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/30.jpg" alt="gallery" class="gallery-item">
+				
+
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Контакты</h2>
+			<p>Почта: Aidai.balbaeva@alatoo.edu.kg<br>
+				Instagram: <a href="https://www.instagram.com/musicclub_alatoo/">@musicclub_alatoo</a></p>
+		</div>
+	</div>
+
+	<script>
+		// Burger toggle
+		const burger = document.getElementById('burger');
+		const navLinks = document.getElementById('navLinks');
+
+		burger.addEventListener('click', () => {
+			navLinks.classList.toggle('active');
+		});
+	</script>
+</body>
+
+</html>

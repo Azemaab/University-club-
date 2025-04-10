@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="./style.css">
+	<title>UNICLUB - FINANCE CLUB</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<div class="navbar-logo">
+			<img src="../images/ALA-TOO_logo.png" class="logo-image">
+			<img src="../images/IMG_6953.PNG" class="logo-image">
+			<span>UNICLUB</span>
+		</div>
+
+		<div class="burger" id="burger">
+			<i class="fas fa-bars"></i>
+		</div>
+
+		<div class="nav-links" id="navLinks">
+			<li><button onclick="location.href='pages/index.html'">HOME</button></li>
+			<li><button onclick="location.href='pages/blog.html'">BLOG</button></li>
+			<li><button onclick="location.href='pages/about.html'">ABOUT</button></li>
+			<li><button onclick="location.href='pages/contact.html'">CONTACT</button></li>
+		</div>
+	</nav>
+
+	<div class="hero hero-bg">
+		<div class="hero-content">
+			<h1>FINANCE CLUB</h1>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="section">
+			<h2>FINANCE CLUB</h2>
+			<p>Финансовый клуб — это студенческое объединение, которое организует интеллектуальные и образовательные
+				мероприятия в
+				сфере финансов и экономики. Мы проводим игры, такие как «Брейн Ринг», где участники могут проверить свои
+				знания в
+				увлекательном формате, а также «Брейн Олимп» — олимпиаду для старшеклассников с возможностью получить
+				призы и скидки на
+				обучение. Кроме того, клуб регулярно устраивает семинары и встречи с представителями компаний, позволяя
+				студентам
+				познакомиться с актуальными темами и практическим опытом специалистов. Клуб открыт для всех, кто хочет
+				участвовать в
+				наших проектах, развивать новые навыки и быть частью активного студенческого сообщества.
+			</p>
+		</div>
+
+		<div class="section">
+			<h2>Руководство</h2>
+			<p>Президент: Cолтонбекова Сайкал</p>
+			<p>Вице: Кушвакова Чолпон</p>
+		</div>
+
+		<div class="section">
+			<h2>Требования</h2>
+			<ul class="requirements-list">
+				<li>Любой, кто желает, может подать заявку</li>
+			</ul>
+		</div>
+
+		<div class="section">
+			<h2>Набор</h2>
+			<p>Набор в клуб проходит через подачу заявки и последующее интервью, где мы знакомимся с кандидатами и их
+				интересами. Клуб
+				открыт для всех студентов, независимо от факультета.</p>
+		</div>
+
+		<div class="section">
+			<h2>Количество студентов</h2>
+			<p>Не более 30 человек</p>
+		</div>
+
+		<div class="section">
+			<h2>Гугл опросник</h2>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdwoMJIKDK8R5dHuvgYG2gPdBQmcc-YKED8AyDepMOhrKgsmg/viewform?usp=header" class="btn" target="_blank">
+				Вступить в клуб
+			</a>
+		</div>
+
+		<div class="section">
+			<h2>Галерея</h2>
+			<div class="gallery-grid">
+				<img src="../images/dance/10.png" alt="gallery" class="gallery-item">
+				<img src="../images/dance/11.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/12.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/13.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/14.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/15.jpg" alt="gallery" class="gallery-item">
+				<img src="../images/dance/16.jpg" alt="gallery" class="gallery-item">
+				
+
+			</div>
+		</div>
+
+		<div class="section">
+			<h2>Контакты</h2>
+			<p>Почта: fin.club@alatoo.edu.kg</p>
+			<p>Instagram: <a href="https://www.instagram.com/fin_club_alatoo/">@fin_club_alatoo</a></p>
+		</div>
+	</div>
+
+	<script>
+		// Burger toggle
+		const burger = document.getElementById('burger');
+		const navLinks = document.getElementById('navLinks');
+
+		burger.addEventListener('click', () => {
+			navLinks.classList.toggle('active');
+		});
+	</script>
+</body>
+
+</html>
